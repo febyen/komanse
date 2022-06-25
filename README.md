@@ -105,7 +105,7 @@ This project uses the following libraries and services:
 First we need to add a remote for the Komanse repository
 
 ```bash
-git remote add komanse git@github.com:febyen/komanse.git
+git remote add komanse https://github.com/febyen/komanse.git
 ```
 
 To merge updates, use git merge from the jumpstart origin.
