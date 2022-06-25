@@ -55,6 +55,13 @@ This project uses the following libraries and services:
 * Unit Testing - [Rspec](https://rubyonrails.org/)
 * Authentication - [Devise](https://github.com/heartcombo/devise)
 
+### Testing
+
+* Rspec
+* Cucumber
+* Factory Bot & Faker
+* Shoulda Matchers
+
 ### Coming Next
 
 * Payment Plans
