@@ -31,11 +31,7 @@ brew services start redis
 ### Install dependencies
 
 ```bash
-bin/bundle install
-```
-
-```bash
-bin/bundle install
+bin/setup
 ```
 
 Run the development server
