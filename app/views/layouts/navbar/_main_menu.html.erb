@@ -1,0 +1,14 @@
+<%# TODO: Update this hierarchy to be as DRY as possible %>
+<div class="mx-auto px-2 sm:px-4 lg:px-8">
+  <div class="relative flex items-center justify-between h-16">
+    <%= render '/layouts/navbar/left_menu' %>
+    <% if user_signed_in? %>
+      <%= render '/layouts/navbar/search' %>
+      <%= render '/layouts/navbar/mobile_menu_button' %>
+      <%= render '/layouts/navbar/right_menu' %>
+    <% else %>
+      <%= render '/layouts/navbar/mobile_menu_button' %>
+      <%= render '/layouts/navbar/auth_links' %>
+    <% end %>
+  </div>
+</div>

@@ -1,0 +1,12 @@
+<nav class="bg-gray-800">
+  <div x-data="{ mobileMenuOpen: false }">
+    <%= render 'layouts/navbar/main_menu' %>
+    <div x-show="mobileMenuOpen" style="display: none;">
+      <% if user_signed_in? %>
+        <%= render 'layouts/navbar/mobile_menu' %>
+      <% else %>
+        <%= render 'layouts/navbar/mobile_menu_signed_out' %>
+      <% end %>
+    </div>
+  </div>
+</nav>

@@ -119,3 +119,7 @@ git merge komanse/main --allow-unrelated-histories
 ```
 
 Keep in mind, the more customization you do, the harder merges will be. Instead of merging from Komanse, you might want to cherry pick commits or manually apply changes to you repository.
+
+## Todo
+
+* Refactor Navbar - If user_signed_in links
